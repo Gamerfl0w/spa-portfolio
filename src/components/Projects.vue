@@ -1,6 +1,6 @@
 <template>
-    <div class="w-[70%] h-full flex flex-col justify-center items-center">
-        <p class="uppercase text-[80px] font-bold text flex items-start w-full">Projects</p>
+    <div class="w-full sm:w-[70%] h-full flex flex-col justify-center items-center p-3 sm:p-0">
+        <p class="uppercase text-[50px] sm:text-[80px] font-bold text flex items-start w-full">Projects</p>
         <div class="flex flex-wrap gap-5 flex-col">
             <div v-for="project in projects" :key="project.title" class="opacity-90 pl-10">  
                 <a :href="project.link" target="_blank"  class="text-xl 2xl:text-3xl font-semibold opacity-80 cursor-pointer underline hover:opacity-100">{{ project.title }}</a>

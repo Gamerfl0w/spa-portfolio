@@ -1,7 +1,7 @@
 <template>
-  <div class="flex gap-10 h-full w-auto 2xl:w-[60%] flex-col justify-center items-center">
+  <div class="flex gap-10 h-full w-full sm:w-auto 2xl:w-[60%] flex-col justify-center items-center z-50">
     <div>
-      <h1 class="text-[55px] 2xl:text-[65px] font-bold uppercase name">Joshua Luis De Chavez</h1>
+      <h1 class="break-words text-[35px] text-center sm:text-[55px] lg:text-[55px] 2xl:text-[65px] font-bold uppercase name">Joshua Luis De Chavez</h1>
       <div class="flex flex-col">
         <p class="text-xl 2xl:text-3xl font-normal opacity-90 ml-3 text-center w-full">Full Stack Developer</p>
         <div class="w-full flex items-center justify-center gap-3">
@@ -12,7 +12,7 @@
       </div>
     </div>
   
-    <div class="w-[697px] 2xl:w-[824px] opacity-95 ml-3">
+    <div class="w-full p-10 sm:p-0 sm:w-[697px] 2xl:w-[824px] opacity-95 ml-3">
       <p class="text-lg 2xl:text-2xl">Dedicated programmer with an academic foundation in
         HTML, CSS, JavaScript, Vue, PHP, and SQL.
         Despite lacking work experience, I am committed to continuous learning and staying up-to-date with emerging technologies in the dynamic field of programming.
