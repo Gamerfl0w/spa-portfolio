@@ -29,8 +29,8 @@ export default {
             skills: [
                 {title: "Programming Languages", description: "C, JavaScript, PHP, C#"},
                 {title: "Web Development", description: "HTML, CSS, JavaScript"},
-                {title: "Frameworks", description: "Laravel, Vue"},
-                {title: "Database Management", description: "SQL, Firebase, MongoDB"},
+                {title: "Frameworks", description: "Laravel, Vue, React, React Native"},
+                {title: "Database Management", description: "MySQL, Firebase, MongoDB"},
                 {title: "Webhooks and APIs", description: "Added PayMongo APIs and Webhooks on an E-commerce project, that provides transactions from popular online payment brands such as GCASH, and Paymaya."},
             ]
         }
