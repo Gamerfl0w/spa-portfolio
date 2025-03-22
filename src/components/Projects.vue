@@ -5,7 +5,7 @@
         </div>
         <div class="flex flex-wrap gap-5 flex-col">
             <div v-for="project in projects" :key="project.title" class="opacity-90 pl-10">  
-                <a :href="project.link" target="_blank"  class="text-xl 2xl:text-3xl font-semibold opacity-80 cursor-pointer underline hover:opacity-100">{{ project.title }}</a>
+                <a :href="project.link" target="_blank"  class="text-xl 2xl:text-3xl font-semibold cursor-pointer underline hover:opacity-100">{{ project.title }}</a>
                 <p class="text-lg 2xl:text-2xl ml-3">{{ project.description }}</p>
             </div>
         </div>

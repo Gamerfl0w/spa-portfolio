@@ -1,12 +1,13 @@
 
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import { onMounted } from "vue";
-import AOS from "aos";
+  import { RouterLink, RouterView } from 'vue-router'
+  import { onMounted } from "vue";
+  import AOS from "aos";
 
-onMounted(() => {
-    AOS.init();
-})
+  onMounted(() => {
+      AOS.init();
+  })
+
 </script>
 
 <template>
@@ -16,6 +17,7 @@ onMounted(() => {
         <router-link active-class="active" to="/" class="cursor-pointer opacity-80 hover:opacity-100 uppercase text-base 2xl:text-2xl">Home</router-link>
         <router-link active-class="active" to="/skills" class="cursor-pointer opacity-80 hover:opacity-100 uppercase text-base 2xl:text-2xl">Skills</router-link>
         <router-link active-class="active" to="/projects" class="cursor-pointer opacity-80 hover:opacity-100 uppercase text-base 2xl:text-2xl">Projects</router-link>
+        <router-link active-class="active" to="/experience" class="cursor-pointer opacity-80 hover:opacity-100 uppercase text-base 2xl:text-2xl">Experience</router-link>
       </ul>
     </aside>
 
@@ -25,7 +27,7 @@ onMounted(() => {
       </div>
     </main>
 
-    <aside class="hidden md:flex flex-shrink-0 h-full right-[-200px] 2xl:right-[-310px] fixed">
+    <aside class="hidden w-auto min-[800px]:flex flex-shrink-0 h-full right-[-200px] 2xl:right-[-310px] fixed">
       <img class="animate__animated animate__fadeIn" src="./assets/maidenless.png" alt="">
     </aside>
 
@@ -34,6 +36,7 @@ onMounted(() => {
         <router-link active-class="active" to="/" class="cursor-pointer opacity-80 hover:opacity-100 uppercase text-base 2xl:text-2xl">Home</router-link>
         <router-link active-class="active" to="/skills" class="cursor-pointer opacity-80 hover:opacity-100 uppercase text-base 2xl:text-2xl">Skills</router-link>
         <router-link active-class="active" to="/projects" class="cursor-pointer opacity-80 hover:opacity-100 uppercase text-base 2xl:text-2xl">Projects</router-link>
+        <router-link active-class="active" to="/experience" class="cursor-pointer opacity-80 hover:opacity-100 uppercase text-base 2xl:text-2xl">Experience</router-link>
       </ul>
     </footer>
   </div>
@@ -44,13 +47,13 @@ onMounted(() => {
       overflow-y: overlay;
   }
   .name {
-  display: inline-block;
-  margin: 0 0.5rem;
-  opacity: 0.8;
+    display: inline-block;
+    margin: 0 0.5rem;
+    opacity: 0.8;
 
-  animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 1s; /* don't forget to set a duration! */
-}
+    animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+  }
 
   .active{
     opacity: 1;
