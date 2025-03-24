@@ -34,7 +34,7 @@ export default {
                     \n Was responsible for maintaining a website hosted to AWS. Troubleshooting was done through the Linux operating system.
                     \n Incorporated complex reporting of data in multiple systems, for example, Heatmap Reports: Show different color intensities on Google Maps based on the given data, Sales Report:
                     Summarize the income of a store or company, Trip Reports: View store rankings, order details, and rider performance. All reports can be exported to excel, pdf, csv. 
-                    They also have their respective graphs and filters, inluding, date, store, branch, and hub.
+                    They also have their respective graphs and filters, including, date, store, branch, and hub.
                     \n Optimized an API response where an API call took from 30 seconds to less than 2 seconds. 
                     Implemented multiple APIs that does CRUD(Create, Read, Update, Delete) operations, and send mobile notifications using firebase cloud messaging. ` },
                 { date: "", title: "", description: "" },
