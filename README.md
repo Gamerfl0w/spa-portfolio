@@ -1,8 +1,7 @@
-# portfolio website
-![image](https://github.com/Gamerfl0w/spa-portfolio/assets/83683259/7cbfd4e4-437e-479c-b693-6babb91253b2)
+# Portfolio website
+![alt text](image.png)
 
-
-
+##
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
