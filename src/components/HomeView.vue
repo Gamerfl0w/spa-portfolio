@@ -16,10 +16,16 @@
       <p class="text-lg 2xl:text-2xl">Dedicated programmer with an experience and academic foundation in
         HTML, CSS, JavaScript, Vue, PHP, and MySQL. I am committed to continuous learning and staying up-to-date with emerging technologies in the dynamic field of programming.
       </p>
-      <div class="flex items-center justify-center gap-5 mt-10">
-          <p class="flex justify-center items-center gap-5"><svg-icon size="36" style="opacity: 0.7;" type="mdi" :path="email"></svg-icon>jluisdechavez@gmail.com</p> 
-          <p class="font-bold">|</p>
-          <p class="flex justify-center items-center gap-5"><svg-icon size="36" style="opacity: 0.7;" type="mdi" :path="phone"></svg-icon>0995 957 7900</p>
+      <div class="flex items-center justify-center gap-5 mt-10 flex-wrap">
+          <div>
+            <p class="flex justify-center items-center gap-5"><svg-icon size="36" style="opacity: 0.7;" type="mdi" :path="email"></svg-icon>jluisdechavez@gmail.com</p> 
+          </div>
+          <div>
+            <p class="font-bold">|</p>
+          </div>
+          <div>
+            <p class="flex justify-center items-center gap-5"><svg-icon size="36" style="opacity: 0.7;" type="mdi" :path="phone"></svg-icon>0995 957 7900</p>
+          </div>
       </div>
     </div>
   </div>
