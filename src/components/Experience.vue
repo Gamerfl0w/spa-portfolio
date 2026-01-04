@@ -5,8 +5,10 @@
         </div>
         <div class="flex flex-wrap gap-5 flex-col">
             <div v-for="experience in experiences" :key="experience.title" class="opacity-90 pl-10">  
-                <h3 class="text-xl 2xl:text-3xl my-5">{{ experience.date }}</h3>
-                <h3 class="text-xl 2xl:text-3xl font-semibold">{{ experience.title }}</h3>
+                <div class="flex items-center">
+                    <a :href="experience.link" target="_blank" class="text-xl 2xl:text-3xl font-semibold">{{ experience.title }}</a>
+                    <span class="text-xl 2xl:text-3xl my-5 ml-3 opacity-70">({{ experience.timePeriod }})</span>
+                </div>
                 <p class="text-lg 2xl:text-2xl ml-3 whitespace-pre-line">{{ experience.description }}</p>
             </div>
         </div>
@@ -29,15 +31,28 @@ export default {
     data() {
         return {
             experiences: [
-                { date: "February 26, 2024 - April 19, 2025", title: "JE310 Solutions Inc.",  description: `Updated and maintaned a delivery app system for Max's.
+                { 
+                    timePeriod: "Actively working", 
+                    title: "VantageBP", 
+                    description: `Collaborated with Senior Software engineer and DevOps 
+                    engineer to extend existing systems using Figma, Ember js, and MongoDB. Identify and resolve multiple issues involving 
+                    APIs and front-end. While ensuring the design and cross-browser compatibility with browsers such as Chrome, Firefox, Edge, 
+                    and Brave.`, 
+                    link: "https://www.vantagebp.com/" 
+                },
+                { 
+                    timePeriod: "2 years", 
+                    title: "JE310 Solutions Inc.",  
+                    description: `Updated and maintaned a delivery app system for Max's.
                     Mainly focusing on API implementation and rider's whereabouts, such as, tracking a rider using google maps, using rider's geolocation to determine if an order can be set as delivered. 
-                    \n Was responsible for maintaining a website hosted to AWS. Troubleshooting was done through the Linux operating system.
-                    \n Incorporated complex reporting of data in multiple systems, for example, Heatmap Reports: Show different color intensities on Google Maps based on the given data, Sales Report:
+                    Was responsible for maintaining a website hosted to AWS. Troubleshooting was done through the Linux operating system.
+                    Incorporated complex reporting of data in multiple systems, for example, Heatmap Reports: Show different color intensities on Google Maps based on the given data, Sales Report:
                     Summarize the income of a store or company, Trip Reports: View store rankings, order details, and rider performance. All reports can be exported to excel, pdf, csv. 
                     They also have their respective graphs and filters, including, date, store, branch, and hub.
-                    \n Optimized an API response where an API call took from 30 seconds to less than 2 seconds. 
-                    Implemented multiple APIs that does CRUD(Create, Read, Update, Delete) operations, and send mobile notifications using firebase cloud messaging. ` },
-                { date: "", title: "", description: "" },
+                    Optimized an API response where an API call took from 30 seconds to less than 2 seconds. 
+                    Implemented multiple APIs that does CRUD(Create, Read, Update, Delete) operations, and send mobile notifications using firebase cloud messaging. `, 
+                    link: "https://je310solution.com/" 
+                },
             ]
         }
     },

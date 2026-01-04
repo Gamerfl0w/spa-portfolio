@@ -14,7 +14,7 @@
   
     <div class="w-full p-10 sm:p-0 sm:w-[697px] 2xl:w-[824px] opacity-95 ml-3 text-center">
       <p class="text-lg 2xl:text-2xl">Dedicated programmer with an experience and academic foundation in
-        HTML, CSS, JavaScript, Vue, PHP, and MySQL. I am committed to continuous learning and staying up-to-date with emerging technologies in the dynamic field of programming.
+        HTML, CSS, JavaScript, PHP, MySQL, and MongoDB. I am committed to continuous learning and staying up-to-date with emerging technologies in the dynamic field of programming.
       </p>
       <div class="flex items-center justify-center gap-5 mt-10 flex-wrap">
           <div>
